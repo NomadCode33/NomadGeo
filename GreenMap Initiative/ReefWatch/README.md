@@ -5,7 +5,8 @@ An interactive dashboard visualizing coral reef pollution and ecosystem health a
 
 ## How It's Made:
 
-**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-online/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Online Badge" src="https://img.shields.io/badge/-ArcGIS Online-4d54b9?style=flat&logo=ArcGIS"></a><a href="https://www.esri.com/en-us/arcgis/products/arcgis-dashboards/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Dashboards Badge" src="https://img.shields.io/badge/-ArcGIS Dashboards-e89204?style=flat&logo=ArcGIS"></a>
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-online/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Online Badge" src="https://img.shields.io/badge/-ArcGIS Online-4d54b9?style=flat&logo=ArcGIS"></a>
+<a href="https://www.esri.com/en-us/arcgis/products/arcgis-dashboards/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Dashboards Badge" src="https://img.shields.io/badge/-ArcGIS Dashboards-e89204?style=flat&logo=ArcGIS"></a>
 
 I began by diving into ArcGIS Online to search for the NOAA Coral Reef Watch data. Opening the data in Map Viewer, I carefully examined all the layers and features to prepare the web map for the dashboard. The attribute table revealed crucial information, such as Degree Heating Weeks and Alert Levels, which would be central to the dashboard's purpose. I selected the "Human Geography Dark Map" from the Basemap options and zoomed in to frame the coral monitoring areas perfectly. With the map view set, I saved the map and added all the necessary details before moving on to create a new dashboard. Choosing a dark theme to enhance visibility, I updated the header to display the dashboard's title.
 
