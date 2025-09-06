@@ -15,7 +15,13 @@ Positive impacts of the project are better preparing residents of New Orleans fo
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Visual Studio, GitHub, Mapbox, Figma
+**Tech used:** <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"> <img alt="HTML5 Badge" src="https://img.shields.io/badge/-HTML5-000000?style=flat&logo=HTML5"></a> 
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"> <img alt="CSS3 Badge" src="https://img.shields.io/badge/-CSS3-000000?style=flat&logo=CSS"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img alt="JavaScript Badge" src="https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=JavaScript"></a>
+<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img alt="Visual Studio Code Badge" src="https://img.shields.io/badge/-Visual Studio Code-000000?style=flat&logo=None"></a>
+<a href="https://github.com/" target="_blank" rel="noreferrer"> <img alt="GitHub Badge" src="https://img.shields.io/badge/-GitHub-000000?style=flat&logo=GitHub"></a>
+<a href="https://www.mapbox.com/" target="_blank" rel="noreferrer"> <img alt="Mapbox Badge" src="https://img.shields.io/badge/-Mapbox-000000?style=flat&logo=Mapbox"></a>
+<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img alt="Figma Badge" src="https://img.shields.io/badge/-Figma-000000?style=flat&logo=Figma"></a>
 
 We began by outlining our project, focusing on flood risk in New Orleans. With the increasing impact of global warming causing more extreme weather events, it's crucial to equip cities like New Orleans with the tools to mitigate and respond to these natural disasters. As cartographers, we aimed to examine the city and the risk posed by future hurricanes to create a tool for damage mitigation and emergency response planning.
 
