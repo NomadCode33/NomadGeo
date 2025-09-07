@@ -5,7 +5,7 @@ A reference map of the state of Massachusetts, designed to present its geographi
 
 ## How It's Made:
 
-**Tech used:** ArcGIS Pro
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a> 
 
 I started by downloading the Massachusetts dataset and selecting the "Counties_northeast" layer, placing it at the bottom of the Contents pane. My goal was to make Massachusetts stand out on the map. To do this, I opened the Symbology pane from the Feature Layer tab and chose "Unique Values" to differentiate state names. I selected "STATE_NAME" from Field 1, removed all other states except Massachusetts, and assigned it a unique color to make it pop while the other states were represented with a default symbol.
 
