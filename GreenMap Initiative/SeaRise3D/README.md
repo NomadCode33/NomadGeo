@@ -5,7 +5,10 @@ A dynamic 3D map highlighting buildings in Miami, Florida projected to be at ris
 
 ## How It's Made:
 
-**Tech used:** ArcGIS Pro, ArcGIS Online, ArcGIS Living Atlas of the World, ArcGIS 3D Analyst extension
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a>
+<a href="https://www.esri.com/en-us/arcgis/products/arcgis-online/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Online Badge" src="https://img.shields.io/badge/-ArcGIS Online-4d54b9?style=flat&logo=ArcGIS"></a>
+<a href="https://livingatlas.arcgis.com/en/home/" target="_blank" rel="noreferrer"> <img alt="ArcGIS Living Atlas Badge" src="https://img.shields.io/badge/-ArcGIS Living Atlas-43A047?style=flat&logo=ArcGIS"></a>
+<img alt="Phone Number Badge" src="https://img.shields.io/badge/-ArcGIS 3D Analyst Extension-000000?style=flat&logo=None">
 
 I started by downloading a dataset of Miami and transforming a flat 2D map into an immersive 3D display. My first challenge was to set the extrusion of the buildings. Initially, all structures appeared uniform in height, so I used the join field tool to merge tables, transferring accurate height attributes to reflect the city's varied skyline. To make the buildings even more realistic, I created multipatch layers and applied textures using the symbology pane and a rule package file (RPK). This added details like windows and modified roof shapes for a more lifelike appearance. Next, I incorporated water data to create a dynamic 3D effect and adjusted the lighting to mimic the glow of an 8 AM sunrise.
 
