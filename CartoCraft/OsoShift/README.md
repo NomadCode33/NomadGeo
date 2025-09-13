@@ -7,7 +7,7 @@ A compelling 3D animation simulating the sequence and spatial extent of the cata
 
 ## How It's Made:
 
-**Tech used:** ArcGIS Pro
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a>
 
 I began by downloading the files needed to build the 3D map scene and create the animation. My first step was to establish a starting keyframe, using a built-in bookmark to set the initial position. I configured the export settings to GIF for optimal viewing, ensuring the animation would be clear and engaging. Then, I moved on to adding additional keyframes, each designed to capture different angles of the mudslide—before and after—highlighting the scale of the destruction. I relied on bookmarks to precisely position each view, making sure every angle contributed to a comprehensive presentation.
 
