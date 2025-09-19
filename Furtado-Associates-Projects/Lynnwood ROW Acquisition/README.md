@@ -5,7 +5,10 @@ A Right-of-Way (ROW) support project focused on ensuring alignment between draft
 
 ## How It's Made:
 
-**Tech used:** Autodesk Civil 3D, Microsoft Word, Office Database, BlueBeam, Microsoft Teams
+**Tech used:** <a href="https://www.autodesk.com/products/civil-3d/overview?term=1-YEAR&tab=subscription" target="_blank" rel="noreferrer"> <img alt="Autodesk Civil 3D Badge" src="https://img.shields.io/badge/-Autodesk Civil 3D-000000?style=flat&logo=Autodesk"></a>
+<a href="https://www.microsoft.com/en-us/microsoft-365/word" target="_blank" rel="noreferrer"> <img alt="Microsoft Word Badge" src="https://img.shields.io/badge/-Microsoft Word-000000?style=flat&logo=None"></a>
+<img alt="Office Database Badge" src="https://img.shields.io/badge/-Office Database-000000?style=flat&logo=None"></a>
+<a href="https://www.microsoft.com/en-us/microsoft-365/word" target="_blank" rel="noreferrer"> <img alt="Microsoft Word Badge" src="https://img.shields.io/badge/-Microsoft Word-000000?style=flat&logo=None"></a>BlueBeam, Microsoft Teams
 
 The Right-of-Way (ROW) department ensures that all elements on the draft map align with the check drawing on Autodesk Civil 3D. Collaboration is key, with team members working together to handle land use permits, parcel maps, and quality checks. We frequently used Microsoft Teams for meetings, discussing deadlines and specific project details to ensure everyone was on the same page.
 
