@@ -5,7 +5,10 @@ A geospatial modeling project focused on constructing a high-accuracy 3D model o
 
 ## How It's Made:
 
-**Tech used:** Autodesk Civil 3D, Microsoft Excel, BlueBeam, Office Database
+**Tech used:** <a href="https://www.autodesk.com/products/civil-3d/overview?term=1-YEAR&tab=subscription" target="_blank" rel="noreferrer"> <img alt="Autodesk Civil 3D Badge" src="https://img.shields.io/badge/-Autodesk Civil 3D-000000?style=flat&logo=Autodesk"></a>
+<a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" rel="noreferrer"> <img alt="Microsoft Excel Badge" src="https://img.shields.io/badge/-Microsoft Excel-000000?style=flat&logo=None"></a>
+<a href="https://www.bluebeam.com/" target="_blank" rel="noreferrer"> <img alt="Bluebeam Badge" src="https://img.shields.io/badge/-Bluebeam-000000?style=flat&logo=None"></a>
+<img alt="Office Database Badge" src="https://img.shields.io/badge/-Office Database-000000?style=flat&logo=None">
 
 Diving into Autodesk Civil 3D, my first task was to set up the workspace and map scene with the correct settings. This foundational step ensured a smooth workflow as I moved forward. To become proficient, I added lisp routines and ran through common CAD commands, which helped me familiarize myself with the software’s capabilities. This process also involved learning the standards, styles, and naming conventions essential for maintaining consistency and accuracy in my work.
 
