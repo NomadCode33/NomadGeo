@@ -5,7 +5,11 @@ An independent mapping project focused on creating a comprehensive and accurate 
 
 ## How It's Made:
 
-**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a>  ArcGIS Online, Autodesk Civil 3D, Microsoft Excel, Office Database
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a>
+<a href="https://www.esri.com/en-us/arcgis/products/arcgis-online/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Online Badge" src="https://img.shields.io/badge/-ArcGIS Online-4d54b9?style=flat&logo=ArcGIS"></a>
+<a href="https://www.autodesk.com/products/civil-3d/overview?term=1-YEAR&tab=subscription" target="_blank" rel="noreferrer"> <img alt="Autodesk Civil 3D Badge" src="https://img.shields.io/badge/-Autodesk Civil 3D-000000?style=flat&logo=Autodesk"></a>
+<a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="_blank" rel="noreferrer"> <img alt="Microsoft Excel Badge" src="https://img.shields.io/badge/-Microsoft Excel-000000?style=flat&logo=None"></a>
+<img alt="Office Database Badge" src="https://img.shields.io/badge/-Office Database-000000?style=flat&logo=None">
 
 ### Sumner Boundary Map: A Journey Through Data Mapping
 
