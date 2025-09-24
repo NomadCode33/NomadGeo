@@ -5,7 +5,10 @@ A data collection project within the Survey department supporting infrastructure
 
 ## How It's Made:
 
-**Tech used:** Trimble S/VX Total Stations, Leica P50 LiDAR Scanner, Office Database, Printer
+**Tech used:** <a href="https://geospatial.trimble.com/en/products/hardware/total-stations" target="_blank" rel="noreferrer"> <img alt="Trimble S/VX Total Stations Badge" src="https://img.shields.io/badge/-Trimble S/VX Total Stations-000000?style=flat&logo=Trimble"></a> 
+  <a href="https://leica-geosystems.com/en-us/products/laser-scanners/scanners/leica-scanstation-p50" target="_blank" rel="noreferrer"> <img alt="Leica P50 LiDAR Scanner Badge" src="https://img.shields.io/badge/-Leica P50 LiDAR Scanner-000000?style=flat&logo=Leica"></a>
+<img alt="Office Database Badge" src="https://img.shields.io/badge/-Office Database-000000?style=flat&logo=None">
+<img alt="Printer Badge" src="https://img.shields.io/badge/-Printer-000000?style=flat&logo=None">
 
 In the Survey department, we collected data points for a variety of projects, from infrastructure development to monitoring CCTVs in sewers and pipelines, and even in forest areas. My role involved both fieldwork and office coordination.
 
