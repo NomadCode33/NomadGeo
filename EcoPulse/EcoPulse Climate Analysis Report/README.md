@@ -7,7 +7,13 @@ A comprehensive climate change report analyzing economic damages, temperature an
 
 ## How It's Made:
 
-**Tech used:** RStudio, R, Git, GitHub, HTML, CSS, JavaScript 
+**Tech used:** <a href="https://www.r-project.org/about.html" target="_blank" rel="noreferrer"> <img alt="R Badge" src="https://img.shields.io/badge/-R-000000?style=flat&logo=R"></a> 
+<a href="https://posit.co/download/rstudio-desktop/" target="_blank" rel="noreferrer"> <img alt="RStudio Badge" src="https://img.shields.io/badge/-RStudio-000000?style=flat&logo=rstudioide"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"> <img alt="HTML5 Badge" src="https://img.shields.io/badge/-HTML5-000000?style=flat&logo=HTML5"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"> <img alt="CSS3 Badge" src="https://img.shields.io/badge/-CSS3-000000?style=flat&logo=CSS"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img alt="JavaScript Badge" src="https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=JavaScript"></a>
+<a href="https://www.git-scm.com/" target="_blank" rel="noreferrer"> <img alt="Git Badge" src="https://img.shields.io/badge/-Git-000000?style=flat&logo=GitHub"></a> 
+<a href="https://github.com/" target="_blank" rel="noreferrer"> <img alt="GitHub Badge" src="https://img.shields.io/badge/-GitHub-000000?style=flat&logo=GitHub"></a>
 
 The project began with a brainstorming session focused on the multifaceted issue of climate change. We identified four crucial topics to explore: Economic Damages, Anomalies, Greenhouse Gas Emissions, and Population. From these themes, we crafted five key questions to guide our research: How do the recent outputs of the three major greenhouse gases in the US compare to historical global changes? What has been the impact of carbon dioxide emissions on economic growth over the past 20 years? How have carbon dioxide emissions affected land and ocean anomalies? Which 12 countries were most affected in 2009, and how did this impact their agricultural output? Lastly, which countries have contributed the most to greenhouse gas emissions from 1990 to 2018?
 
