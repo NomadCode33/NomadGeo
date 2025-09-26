@@ -7,7 +7,11 @@ An interactive website developed using RStudio and Shiny Apps to engage users wi
 
 ## How It's Made:
 
-**Tech used:** RStudio, R Shiny Apps, R, Git, GitHub
+**Tech used:** <a href="https://www.r-project.org/about.html" target="_blank" rel="noreferrer"> <img alt="R Badge" src="https://img.shields.io/badge/-R-000000?style=flat&logo=R"></a> 
+<a href="https://shiny.posit.co/" target="_blank" rel="noreferrer"> <img alt="R Shiny Apps Badge" src="https://img.shields.io/badge/-R Shiny Apps-000000?style=flat&logo=R"></a>
+<a href="https://posit.co/download/rstudio-desktop/" target="_blank" rel="noreferrer"> <img alt="RStudio Badge" src="https://img.shields.io/badge/-RStudio-000000?style=flat&logo=rstudioide"></a>
+<a href="https://www.git-scm.com/" target="_blank" rel="noreferrer"> <img alt="Git Badge" src="https://img.shields.io/badge/-Git-000000?style=flat&logo=GitHub"></a> 
+<a href="https://github.com/" target="_blank" rel="noreferrer"> <img alt="GitHub Badge" src="https://img.shields.io/badge/-GitHub-000000?style=flat&logo=GitHub"></a> 
 
 Creating an interactive website to allow people to engage with climate change data was an exciting project. We used RStudio and Shiny Apps to build this interactive site, which involved three main steps: designing the user interface (UI), fetching data from the server, and integrating everything into a cohesive structure similar to HTML. Here's a detailed breakdown of how we brought this project to life.
 
