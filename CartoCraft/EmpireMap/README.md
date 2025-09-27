@@ -5,7 +5,7 @@ A labeled street map of New York developed using label classes and attribute que
 
 ## How It's Made:
 
-**Tech used:** ArcGIS Pro
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a> 
 
 The project began with a chaotic mess of labels on a street map of New York, where text cluttered the Hudson River and overlapped streets, making the map hard to read. My mission was to bring clarity to this tangle, starting with the line that ran down the middle of the Hudson River, marking the border between New York and New Jersey.
 
