@@ -5,7 +5,7 @@ A stop-motion animation illustrating a race between two ships, El Rey and El Col
 
 ## How It's Made:
 
-**Tech used:** ArcGIS Pro
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a>
 
 The project opened with an animated display of interpolated ship paths, showing each ship’s movement frame by frame. To bring the animation to life, I needed to take several steps. First, I set up a per-feature filter using a range. This filter, connected to the "Hours_Travelled" field, allowed me to interactively filter the features on the map based on how long each ship had been at sea since leaving port. By synchronizing these filtered features with the exported video frames, I created the illusion of ships sailing across the ocean.
 
