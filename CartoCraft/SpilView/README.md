@@ -5,7 +5,7 @@ A map featuring an unconventional yet visually striking projection of the world'
 
 ## How It's Made:
 
-**Tech used:** ArcGIS Pro
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a>
 
 The project began with a basic world map, drawn in the WGS84 coordinate system, with simple black and gray tones. It had a cartoonish level of generalization designed to balance detail and clarity on a small-scale map. The map felt flat, and I wanted it to tell a more dynamic story about the world’s oceans.
 
