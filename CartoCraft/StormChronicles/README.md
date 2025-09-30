@@ -5,7 +5,7 @@ A detailed map projection showcasing the projected paths and frequencies of hurr
 
 ## How It's Made:
 
-**Tech used:** ArcGIS Pro
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a>
 
 I began by gathering four key datasets: the NASA basemap image, NOAA's historic hurricane data, coastlines and graticules, and a collection of Firefly icon images. To create a captivating visual experience, I chose the South Pole Stereographic Projection. This projection accentuates the circular patterns of storms across the globe, drawing attention to the storm density in the Northern Hemisphere.
 
