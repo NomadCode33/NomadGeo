@@ -5,7 +5,7 @@ A 2D animation visualizing the maritime shipping routes of England, the Netherla
 
 ## How It's Made:
 
-**Tech used:** ArcGIS Pro
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a>
 
 After downloading the data, I opened the map and navigated to the properties of the Ship Positions layer. In the Time tab, I selected "Filter Layer Content Based on Attribute Values" and set the Time Field to "ShipDate," confirming that each feature had a single time field. This enabled the time slider, which displayed a timeline from January 1, 1770, to December 31, 1770. To make the animation progress in weekly increments, I activated the Time Snapping option, set the units to days, and defined a span of 7 days.
 
