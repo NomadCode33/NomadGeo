@@ -5,7 +5,14 @@ An ArcGIS StoryMap showcasing my GIS-based research on climate change, designed 
 
 ## How It's Made:
 
-**Tech used:** ArcGIS StoryMaps, ArcGIS Pro, ArcGIS Online, ArcGIS Instant Apps, ArcGIS Dashboards, ArcGIS Living Atlas of the World, ArcGIS Survey123, ArcGIS Network Analyst
+**Tech used:** <a href="https://storymaps.arcgis.com/" target="_blank" rel="noreferrer"> <img alt="ArcGIS Storymaps Badge" src="https://img.shields.io/badge/-ArcGIS StoryMaps-64c4b7?style=flat&logo=ArcGIS"></a>  
+<a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a>  
+<a href="https://www.esri.com/en-us/arcgis/products/arcgis-online/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Online Badge" src="https://img.shields.io/badge/-ArcGIS Online-4d54b9?style=flat&logo=ArcGIS"></a> 
+<a href="https://www.esri.com/en-us/arcgis/products/arcgis-instant-apps/trial" target="_blank" rel="noreferrer"> <img alt="ArcGIS Instant Apps Badge" src="https://img.shields.io/badge/-ArcGIS Instant Apps-8FA17A?style=flat&logo=ArcGIS"></a> 
+<a href="https://www.esri.com/en-us/arcgis/products/arcgis-dashboards/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Dashboards Badge" src="https://img.shields.io/badge/-ArcGIS Dashboards-e89204?style=flat&logo=ArcGIS"></a> 
+<a href="https://livingatlas.arcgis.com/en/home/" target="_blank" rel="noreferrer"> <img alt="ArcGIS Living Atlas Badge" src="https://img.shields.io/badge/-ArcGIS Living Atlas-43A047?style=flat&logo=ArcGIS"></a> 
+<a href="https://survey123.arcgis.com/" target="_blank" rel="noreferrer"> <img alt="ArcGIS Survey123 Badge" src="https://img.shields.io/badge/-ArcGIS Survey123-759c33?style=flat&logo=ArcGIS"></a> 
+<a href="https://www.esri.com/en-us/arcgis/products/arcgis-network-analyst/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Network Analyst Badge" src="https://img.shields.io/badge/-ArcGIS Network Analyst-0e9b6b?style=flat&logo=ArcGIS"></a> 
 
 I embarked on the creation of my StoryMap by downloading the necessary files and setting up a new project on ArcGIS StoryMaps. I began with the essentials: a compelling title, an engaging introduction, and a clear roadmap to guide the audience through the narrative. This structure set the stage for an immersive exploration of climate change topics, seamlessly linking each section.
 
