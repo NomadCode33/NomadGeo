@@ -5,7 +5,8 @@ An interactive app visualizing land cover change in Rondônia, Brazil, from 1992
 
 ## How It's Made:
 
-**Tech used:** ArcGIS Online, ArcGIS Instant Apps
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-online/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Online Badge" src="https://img.shields.io/badge/-ArcGIS Online-4d54b9?style=flat&logo=ArcGIS"></a>
+<a href="https://www.esri.com/en-us/arcgis/products/arcgis-instant-apps/trial" target="_blank" rel="noreferrer"> <img alt="ArcGIS Instant Apps Badge" src="https://img.shields.io/badge/-ArcGIS Instant Apps-8FA17A?style=flat&logo=ArcGIS"></a>
 
 I started by searching ArcGIS Online for a suitable web map and discovered the "Rondonia Land Cover Change from 1992 to 2020." It was the perfect foundation for my project. With this map in hand, I moved to ArcGIS Instant Apps, choosing the Media Map template—a great choice for allowing users to interact with and compare the data over time.
 
