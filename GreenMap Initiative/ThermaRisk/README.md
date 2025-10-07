@@ -5,7 +5,9 @@ An interactive map illustrating the intensity of heat across various areas in At
 
 ## How It's Made:
 
-**Tech used:** ArcGIS Pro, ArcGIS Online, ArcGIS Living Atlas of the World, ArcGIS Spatial Analyst extension
+**Tech used:** <a href="https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Pro Badge" src="https://img.shields.io/badge/-ArcGIS Pro-000000?style=flat&logo=ArcGIS"></a>
+<a href="https://www.esri.com/en-us/arcgis/products/arcgis-online/overview" target="_blank" rel="noreferrer"> <img alt="ArcGIS Online Badge" src="https://img.shields.io/badge/-ArcGIS Online-4d54b9?style=flat&logo=ArcGIS"></a> ArcGIS <a href="https://livingatlas.arcgis.com/en/home/" target="_blank" rel="noreferrer"> <img alt="ArcGIS Living Atlas Badge" src="https://img.shields.io/badge/-ArcGIS Living Atlas-43A047?style=flat&logo=ArcGIS"></a>
+<img alt="ArcGIS Spatial Analyst Badge" src="https://img.shields.io/badge/-ArcGIS Spatial Analyst-43A047?style=flat&logo=ArcGIS"></a>
 
 The project began with obtaining land surface temperature data using a Multispectral Landsat imagery layer from the ArcGIS Living Atlas. I focused on Athens, Greece, zooming into the GRC_Postcodes3 layer, and filtered out postcodes that could skew the data. Using the Copy Features tool, I created a new layer named Athens_Postcodes with only the relevant data.
 
