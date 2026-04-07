@@ -2,9 +2,14 @@
 
 An exercise in deploying and managing a cloud-hosted spatial database using Microsoft Azure and PostgreSQL. This project covers the full pipeline — from provisioning a cloud server on Azure to building a structured PostGIS-enabled database, managing multi-user access through role-based permissions, and automating spatial data population using SQL trigger functions. The work was done across four stages, each building directly on the last.
 
+<img src="./assets/SonicVerse-home-page.png" img alt = "SonicVerse Front Page"/>
+
 ## How It's Made:
 
-**Tech used:** Microsoft Azure, Azure Database for PostgreSQL, Azure Cloud Shell, PostGIS, QGIS, SQL, psql, Bash
+**Tech used:** <a href="https://azure.microsoft.com/en-us" target="_blank" rel="noreferrer"> <img alt="Microsoft Azure Badge" src="https://img.shields.io/badge/-Microsoft Azure-000000?style=flat&logo=None"></a>
+<a href="https://azure.microsoft.com/en-us/products/postgresql" target="_blank" rel="noreferrer"> <img alt="Azure Database for PostgreSQL Badge" src="https://img.shields.io/badge/-Azure Database for PostgreSQL-000000?style=flat&logo=None"></a> Azure Database for PostgreSQL, Azure Cloud Shell, PostGIS, QGIS, SQL, psql, Bash
+
+<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img alt="Visual Studio Code Badge" src="https://img.shields.io/badge/-Visual Studio Code-000000?style=flat&logo=None"></a>
 
 The project started with provisioning a cloud database server on Microsoft Azure. Using the Azure Portal, I set up an Azure Database for PostgreSQL single-server instance (`enterprisegisee`) under a resource group called `my_gis_group`, configured with 1 vCore and 5 GB of Basic storage to stay within the available credit. After deployment, I configured the firewall rules to allow public access, added the current client IP address, and enforced SSL connections. To connect to the server, I opened Azure Cloud Shell, selected Bash, and used `psql` to connect via the command line. From there I created a new database called `myspatialdb` and ran `CREATE EXTENSION postgis;` to enable spatial support.
 
