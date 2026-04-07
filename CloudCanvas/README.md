@@ -1,4 +1,4 @@
-# Cloud-Based Spatial Database Management with Microsoft Azure
+# CloudCanvas: Cloud-Based Spatial Database Management with Microsoft Azure
 
 An exercise in deploying and managing a cloud-hosted spatial database using Microsoft Azure and PostgreSQL. This project covers the full pipeline — from provisioning a cloud server on Azure to building a structured PostGIS-enabled database, managing multi-user access through role-based permissions, and automating spatial data population using SQL trigger functions. The work was done across four stages, each building directly on the last.
 

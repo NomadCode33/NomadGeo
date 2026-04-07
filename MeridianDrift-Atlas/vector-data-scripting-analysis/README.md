@@ -1,4 +1,4 @@
-# Working with Vector Data
+# Vector Data Scripting Analysis
 
 An exercise in geospatial vector data processing and scripting using Python. This project covers three core geospatial libraries — OGR, Shapely/Fiona, and GeoPandas — and demonstrates how to use each one to create, manipulate, analyze, and visualize vector data. The independent section applies these scripting skills to real wildfire datasets, performing spatial joins and producing choropleth maps that compare wildfire counts across U.S. states for two separate time periods.
 
