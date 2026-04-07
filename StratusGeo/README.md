@@ -6,7 +6,7 @@ An exploration of cloud-native geospatial analytics focused on enabling spatial 
 
 ## How It's Made:
 
-**Tech used:** Amazon Redshift, AWS Data Exchange, CARTO, SQL, Amazon SageMaker (ML), Cloud Data Warehouse
+**Tech used:** Amazon Redshift, AWS Data Exchange, CARTO, SQL, Redshift ML, Cloud Data Warehouse
 
 The project started with setting up access to Amazon Redshift and connecting it to AWS Data Exchange, which serves as the entry point for third-party geospatial datasets. Rather than downloading and managing data locally, AWS Data Exchange allows you to find, subscribe to, and query external datasets directly alongside your own first-party data inside Redshift — keeping everything in one place and eliminating the data movement that typically slows down geospatial workflows.
 
@@ -16,7 +16,7 @@ The first was running spatial queries using SQL. Amazon Redshift has built-in sp
 
 The second was integrating third-party geospatial data through AWS Data Exchange. By subscribing to external datasets through the exchange, those datasets become immediately queryable inside Redshift without any manual export or transformation step. This makes it straightforward to combine external geospatial data — things like demographic boundaries, points of interest, or environmental datasets — with internal first-party data and run spatial joins across both in a single query.
 
-The third was applying machine learning to spatial data using Amazon Redshift ML, which integrates with Amazon SageMaker under the hood. Rather than exporting data to a separate environment to train and run models, Redshift ML allows you to create and apply ML models on your data in place using SQL. This keeps the spatial data in the cloud data warehouse throughout the entire workflow — from ingestion to analysis to prediction — without any data movement between systems.
+The third was applying machine learning to spatial data using Redshift ML. Rather than exporting data to a separate environment to train and run models, Redshift ML allows you to create and apply ML models on your data in place using SQL. This keeps the spatial data in the cloud data warehouse throughout the entire workflow — from ingestion to analysis to prediction — without any data movement between systems.
 
 CARTO was used as the visualization and spatial analytics layer on top of Redshift, providing a way to surface the results of cloud-based spatial queries as interactive maps and dashboards. This combination — Redshift for storage, querying, and ML, and CARTO for visualization — covers most geospatial use cases entirely within the cloud.
 
@@ -36,6 +36,6 @@ Using SQL as the primary interface throughout — for spatial joins, spatial fun
 
 This project made it clear that the biggest bottleneck in geospatial analytics is usually not the analysis itself — it's everything that has to happen before and after. Getting data into the right format, moving it between systems, and managing infrastructure for spatial processing can easily consume more time than the actual spatial queries. A cloud data warehouse like Amazon Redshift, combined with a data marketplace like AWS Data Exchange, removes most of that friction by treating geospatial data the same way it treats any other structured data.
 
-The ability to run machine learning directly inside Redshift using SQL was probably the most unexpected takeaway. The typical assumption is that ML requires a separate pipeline — export the data, train a model in a notebook or a dedicated ML platform, deploy it somewhere, and then figure out how to get predictions back into your analysis environment. Redshift ML collapses that into a single SQL statement, which changes what's practical to do with spatial data at scale.
+The ability to run machine learning directly inside Redshift using SQL was probably the most unexpected takeaway. The typical assumption is that ML requires a separate pipeline — export the data, train a model in a notebook or dedicated platform, deploy it somewhere, and then figure out how to get predictions back into your analysis environment. Redshift ML collapses that into a single SQL statement, which changes what's practical to do with spatial data at scale.
 
 The CARTO integration also reinforced that cloud-native geospatial work doesn't have to sacrifice visualization quality. Having a direct connection from the data warehouse to an interactive mapping platform means the output of a spatial query can be on a map in seconds, rather than going through an export-and-import cycle just to see what the data looks like spatially.
