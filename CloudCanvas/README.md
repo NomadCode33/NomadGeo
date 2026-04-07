@@ -2,14 +2,18 @@
 
 An exercise in deploying and managing a cloud-hosted spatial database using Microsoft Azure and PostgreSQL. This project covers the full pipeline — from provisioning a cloud server on Azure to building a structured PostGIS-enabled database, managing multi-user access through role-based permissions, and automating spatial data population using SQL trigger functions. The work was done across four stages, each building directly on the last.
 
-<img src="./assets/SonicVerse-home-page.png" img alt = "SonicVerse Front Page"/>
+<img src="Azure-QGIS-Park-Data-Automation.png" img alt = "Azure/QGIS Park Data Picture"/>
 
 ## How It's Made:
 
 **Tech used:** <a href="https://azure.microsoft.com/en-us" target="_blank" rel="noreferrer"> <img alt="Microsoft Azure Badge" src="https://img.shields.io/badge/-Microsoft Azure-000000?style=flat&logo=None"></a>
-<a href="https://azure.microsoft.com/en-us/products/postgresql" target="_blank" rel="noreferrer"> <img alt="Azure Database for PostgreSQL Badge" src="https://img.shields.io/badge/-Azure Database for PostgreSQL-000000?style=flat&logo=None"></a> Azure Database for PostgreSQL, Azure Cloud Shell, PostGIS, QGIS, SQL, psql, Bash
-
-<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img alt="Visual Studio Code Badge" src="https://img.shields.io/badge/-Visual Studio Code-000000?style=flat&logo=None"></a>
+<a href="https://azure.microsoft.com/en-us/products/postgresql" target="_blank" rel="noreferrer"> <img alt="Azure Database for PostgreSQL Badge" src="https://img.shields.io/badge/-Azure Database for PostgreSQL-000000?style=flat&logo=None"></a>
+<a href="https://azure.microsoft.com/en-us/get-started/azure-portal/cloud-shell" target="_blank" rel="noreferrer"> <img alt="Azure Cloud Shell Badge" src="https://img.shields.io/badge/-Azure Cloud Shell-000000?style=flat&logo=None"></a>
+<a href="https://www.ibm.com/think/topics/structured-query-language" target="_blank" rel="noreferrer"> <img alt="SQL Badge" src="https://img.shields.io/badge/-SQL-000000?style=flat&logo=None"></a>
+<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img alt="PostgreSQL Badge" src="https://img.shields.io/badge/-PostgreSQL-000000?style=flat&logo=PostgreSQL"></a>
+<a href="https://postgis.net/" target="_blank" rel="noreferrer"> <img alt="PostGIS Badge" src="https://img.shields.io/badge/-PostGIS-000000?style=flat&logo=None"></a>
+<a href="https://www.qgis.org/en/site/" target="_blank" rel="noreferrer"> <img alt="QGIS Badge" src="https://img.shields.io/badge/-QGIS-000000?style=flat&logo=Qgis"></a>
+<a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank" rel="noreferrer"> <img alt="Bash Badge" src="https://img.shields.io/badge/-Bash-000000?style=flat&logo=None"></a>
 
 The project started with provisioning a cloud database server on Microsoft Azure. Using the Azure Portal, I set up an Azure Database for PostgreSQL single-server instance (`enterprisegisee`) under a resource group called `my_gis_group`, configured with 1 vCore and 5 GB of Basic storage to stay within the available credit. After deployment, I configured the firewall rules to allow public access, added the current client IP address, and enforced SSL connections. To connect to the server, I opened Azure Cloud Shell, selected Bash, and used `psql` to connect via the command line. From there I created a new database called `myspatialdb` and ran `CREATE EXTENSION postgis;` to enable spatial support.
 
