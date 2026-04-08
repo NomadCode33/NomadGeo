@@ -10,16 +10,11 @@ An exploration of raster data processing focused on opening, inspecting, classif
 <a href="https://corteva.github.io/rioxarray/stable/" target="_blank" rel="noreferrer"> <img alt="rioxarray Badge" src="https://img.shields.io/badge/-rioxarray-000000?style=flat&logo=None"></a>
 <a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
 <a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img alt="NumPy Badge" src="https://img.shields.io/badge/-NumPy-000000?style=flat&logo=NumPy"></a>
-<a href="https://geopandas.org/en/stable/" target="_blank" rel="noreferrer"> <img alt="GeoPandas Badge" src="https://img.shields.io/badge/-GeoPandas-139C5A?style=flat&logo=GeoPandas"></a>
-
-<a href="" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
-<a href="" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
-<a href="" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
-<a href="" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
-
-
-
-GeoPandas, EarthPy, Matplotlib, Seaborn, JupyterLab
+<a href="https://geopandas.org/en/stable/" target="_blank" rel="noreferrer"> <img alt="GeoPandas Badge" src="https://img.shields.io/badge/-GeoPandas-000000?style=flat&logo=GeoPandas"></a>
+<a href="https://earthpy.readthedocs.io/en/latest/" target="_blank" rel="noreferrer"> <img alt="EarthPy Badge" src="https://img.shields.io/badge/-EarthPy-000000?style=flat&logo=None"></a>
+<a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img alt="Matplotlib Badge" src="https://img.shields.io/badge/-Matplotlib-000000?style=flat&logo=None"></a>
+<a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img alt="Seaborn Badge" src="https://img.shields.io/badge/-Seaborn-000000?style=flat&logo=None"></a>
+<a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img alt="Jupyter Lab Badge" src="https://img.shields.io/badge/-Jupyter Lab-000000?style=flat&logo=Jupyter"></a>
 
 The project started with installing and importing the required libraries — `rioxarray`, `earthpy`, and `GeoPandas` — and downloading the Colorado Flood dataset using `et.data.get_data()`. The working directory was set using `os.chdir()` to point into the `earth-analytics/data` folder where all the raster files live.
 
@@ -33,8 +28,6 @@ Both difference rasters were classified using `np.digitize` through `xr.apply_uf
 
 The CHM change map showed that before and after the flood, medium and tall trees dominated the left side of the study area, with that cluster appearing largely undisturbed post-flood. The terrain change map told a different story — the majority of the post-flood raster shifted toward short tree classifications, with medium, tall, and really tall categories becoming sparse and scattered, suggesting significant vegetation and ground surface disruption across much of the area.
 
----
-
 ## Optimizations
 
 One issue that came up early in Q1 was that the no data value for the raster wasn't properly defined — it printed as `nan` rather than a recognized nodata flag. This is the kind of thing that can quietly break raster calculations or skew color scales without throwing an obvious error, so catching it early by explicitly printing `rio.nodata` before doing anything else was the right call.
@@ -42,8 +35,6 @@ One issue that came up early in Q1 was that the no data value for the raster was
 Checking that the spatial extent and resolution of the raster layers matched before subtracting them was also important. Raster math in Python is matrix subtraction — if the dimensions don't line up perfectly, the results won't make sense. Using `.rio.bounds()` and `.rio.resolution()` to confirm alignment before running the CHM calculation kept that from becoming a problem.
 
 Using `masked=True` and `.squeeze()` together every time a raster was opened became the consistent pattern throughout the project. `masked=True` ensures no data values don't pollute calculations, and `.squeeze()` drops the extra band dimension that rioxarray adds by default — both are easy to forget and both cause downstream issues if skipped.
-
----
 
 ## Lessons Learned
 
