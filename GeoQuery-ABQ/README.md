@@ -6,8 +6,7 @@ An exploration of geospatial database management focused on building, querying, 
 
 ## How It's Made:
 
-**Tech used:** <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img alt="Python Badge" src="https://img.shields.io/badge/-Python-000000?style=flat&logo=Python"></a>  
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img alt="PostgreSQL Badge" src="https://img.shields.io/badge/-PostgreSQL-000000?style=flat&logo=PostgreSQL"></a> 
+**Tech used:** <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img alt="Python Badge" src="https://img.shields.io/badge/-Python-000000?style=flat&logo=Python"></a>  <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img alt="PostgreSQL Badge" src="https://img.shields.io/badge/-PostgreSQL-000000?style=flat&logo=PostgreSQL"></a> 
 <a href="https://postgis.net/" target="_blank" rel="noreferrer"> <img alt="PostGIS Badge" src="https://img.shields.io/badge/-PostGIS-000000?style=flat&logo=None"></a>
 <a href="https://pypi.org/project/psycopg2/" target="_blank" rel="noreferrer"> <img alt="psycopg2 Badge" src="https://img.shields.io/badge/-psycopg2-000000?style=flat&logo=None"></a>
 <a href="https://shapely.readthedocs.io/en/stable/" target="_blank" rel="noreferrer"> <img alt="Shapely Badge" src="https://img.shields.io/badge/-Shapely-000000?style=flat&logo=None"></a> 
