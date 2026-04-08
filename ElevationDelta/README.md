@@ -2,7 +2,7 @@
 
 An exploration of raster data processing focused on opening, inspecting, classifying, and comparing lidar-derived raster datasets using Python. Working with Digital Terrain Models (DTM), Digital Surface Models (DSM), and Canopy Height Models (CHM) — all in GeoTIFF format — this project covers how to use Python geospatial libraries to read raster data, handle no data values, perform raster math, and produce classified raster maps that visualize change over time. The dataset is lidar-derived NEON data from Boulder, Colorado, capturing terrain and vegetation conditions before and after the 2013 flood.
 
-<img src="Azure-QGIS-Park-Data-Automation.png" img alt = "Azure/QGIS Park Data Picture"/>
+<img src="data-html.png" img alt = "ElevationDelta HTML Picture"/>
 
 ## How It's Made:
 
@@ -10,12 +10,12 @@ An exploration of raster data processing focused on opening, inspecting, classif
 <a href="https://corteva.github.io/rioxarray/stable/" target="_blank" rel="noreferrer"> <img alt="rioxarray Badge" src="https://img.shields.io/badge/-rioxarray-000000?style=flat&logo=None"></a>
 <a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
 <a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img alt="NumPy Badge" src="https://img.shields.io/badge/-NumPy-000000?style=flat&logo=NumPy"></a>
+<a href="https://geopandas.org/en/stable/" target="_blank" rel="noreferrer"> <img alt="GeoPandas Badge" src="https://img.shields.io/badge/-GeoPandas-139C5A?style=flat&logo=GeoPandas"></a>
 
-<a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
-<a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
-<a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
-<a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
-<a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
+<a href="" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
+<a href="" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
+<a href="" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
+<a href="" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
 
 
 
