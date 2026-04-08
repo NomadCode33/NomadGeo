@@ -2,9 +2,16 @@
 
 An exploration of geospatial data management focused on reading, writing, and converting between core GIS data formats using Python. Working with vector and raster data — Shapefiles, GeoJSON, and GeoTIFF — this project covers how to use Python geospatial libraries to open, inspect, plot, and convert spatial datasets sourced from both local files and remote databases.
 
+<img src="data-types-html.png" img alt = "Data Types/Conversion HTML Picture"/>
+
 ## How It's Made:
 
-**Tech used:** Python, GeoPandas, Fiona, OGR/GDAL, Rasterio, Matplotlib, JupyterLab
+**Tech used:** <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img alt="Python Badge" src="https://img.shields.io/badge/-Python-000000?style=flat&logo=Python"></a>  <a href="https://geopandas.org/en/stable/" target="_blank" rel="noreferrer"> <img alt="GeoPandas Badge" src="https://img.shields.io/badge/-GeoPandas-000000?style=flat&logo=GeoPandas"></a> 
+<a href="https://fiona.readthedocs.io/en/stable/" target="_blank" rel="noreferrer"> <img alt="Fiona Badge" src="https://img.shields.io/badge/-Fiona-000000?style=flat&logo=None"></a>
+<a href="https://gdal.org/en/stable/api/python/python_bindings.html" target="_blank" rel="noreferrer"> <img alt="OGR/GDAL Badge" src="https://img.shields.io/badge/-OGR/GDAL-000000?style=flat&logo=None"></a> 
+<a href="https://rasterio.readthedocs.io/en/stable/" target="_blank" rel="noreferrer"> <img alt="Rasterio Badge" src="https://img.shields.io/badge/-Rasterio-000000?style=flat&logo=None"></a>  
+<a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img alt="Matplotlib Badge" src="https://img.shields.io/badge/-Matplotlib-000000?style=flat&logo=None"></a> 
+<a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img alt="Jupyter Lab Badge" src="https://img.shields.io/badge/-Jupyter Lab-000000?style=flat&logo=Jupyter"></a>
 
 We started by setting up the environment and installing the libraries needed to handle the different data types covered in the project. From there, we downloaded the Natural Earth Quick Start Kit and organized the data into subfolders — `10m_cultural`, `50m_raster`, and `110m_cultural` — uploading each dataset into Jupyter before writing any code.
 
