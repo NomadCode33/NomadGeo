@@ -2,11 +2,24 @@
 
 An exploration of raster data processing focused on opening, inspecting, classifying, and comparing lidar-derived raster datasets using Python. Working with Digital Terrain Models (DTM), Digital Surface Models (DSM), and Canopy Height Models (CHM) — all in GeoTIFF format — this project covers how to use Python geospatial libraries to read raster data, handle no data values, perform raster math, and produce classified raster maps that visualize change over time. The dataset is lidar-derived NEON data from Boulder, Colorado, capturing terrain and vegetation conditions before and after the 2013 flood.
 
----
+<img src="Azure-QGIS-Park-Data-Automation.png" img alt = "Azure/QGIS Park Data Picture"/>
 
 ## How It's Made:
 
-**Tech used:** Python, rioxarray, xarray, NumPy, GeoPandas, EarthPy, Matplotlib, Seaborn, JupyterLab
+**Tech used:** <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img alt="Python Badge" src="https://img.shields.io/badge/-Python-000000?style=flat&logo=Python"></a> 
+<a href="https://corteva.github.io/rioxarray/stable/" target="_blank" rel="noreferrer"> <img alt="rioxarray Badge" src="https://img.shields.io/badge/-rioxarray-000000?style=flat&logo=None"></a>
+<a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
+<a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img alt="NumPy Badge" src="https://img.shields.io/badge/-NumPy-000000?style=flat&logo=NumPy"></a>
+
+<a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
+<a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
+<a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
+<a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
+<a href="https://xarray.dev/" target="_blank" rel="noreferrer"> <img alt="xarray Badge" src="https://img.shields.io/badge/-xarray-000000?style=flat&logo=None"></a>
+
+
+
+GeoPandas, EarthPy, Matplotlib, Seaborn, JupyterLab
 
 The project started with installing and importing the required libraries — `rioxarray`, `earthpy`, and `GeoPandas` — and downloading the Colorado Flood dataset using `et.data.get_data()`. The working directory was set using `os.chdir()` to point into the `earth-analytics/data` folder where all the raster files live.
 
