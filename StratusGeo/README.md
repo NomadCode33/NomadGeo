@@ -2,11 +2,13 @@
 
 An exploration of cloud-native geospatial analytics focused on enabling spatial queries, third-party data integration, and machine learning directly inside a cloud data warehouse. Working with Amazon Redshift, AWS Data Exchange, and CARTO, this project covers how to subscribe to geospatial datasets in the cloud, run spatial joins and built-in spatial functions using SQL, and build machine learning models on spatial data — all without leaving the cloud environment.
 
----
-
 ## How It's Made:
 
-**Tech used:** Amazon Redshift, AWS Data Exchange, CARTO, SQL, Redshift ML, Cloud Data Warehouse
+**Tech used:** <a href="https://aws.amazon.com/redshift/" target="_blank" rel="noreferrer"> <img alt="Amazon Redshift Badge" src="https://img.shields.io/badge/-Amazon Redshift-000000?style=flat&logo=None"></a> <a href="https://aws.amazon.com/data-exchange/" target="_blank" rel="noreferrer"> <img alt="AWS Data Exchange Badge" src="https://img.shields.io/badge/-AWS Data Exchange-000000?style=flat&logo=None"></a>
+<a href="https://carto.com/" target="_blank" rel="noreferrer"> <img alt="CARTO Badge" src="https://img.shields.io/badge/-CARTO-000000?style=flat&logo=Carto"></a>
+<a href="https://www.ibm.com/think/topics/structured-query-language" target="_blank" rel="noreferrer"> <img alt="SQL Badge" src="https://img.shields.io/badge/-SQL-000000?style=flat&logo=None"></a> 
+<a href="https://aws.amazon.com/redshift/features/redshift-ml/" target="_blank" rel="noreferrer"> <img alt="Redshift ML Badge" src="https://img.shields.io/badge/-Redshift ML-000000?style=flat&logo=None"></a>
+<a href="https://www.databricks.com/discover/data-warehouse/cloud" target="_blank" rel="noreferrer"> <img alt="Cloud Data Warehouse Badge" src="https://img.shields.io/badge/-Cloud Data Warehouse-000000?style=flat&logo=None"></a>
 
 The project started with setting up access to Amazon Redshift and connecting it to AWS Data Exchange, which serves as the entry point for third-party geospatial datasets. Rather than downloading and managing data locally, AWS Data Exchange allows you to find, subscribe to, and query external datasets directly alongside your own first-party data inside Redshift — keeping everything in one place and eliminating the data movement that typically slows down geospatial workflows.
 
@@ -20,8 +22,6 @@ The third was applying machine learning to spatial data using Redshift ML. Rathe
 
 CARTO was used as the visualization and spatial analytics layer on top of Redshift, providing a way to surface the results of cloud-based spatial queries as interactive maps and dashboards. This combination — Redshift for storage, querying, and ML, and CARTO for visualization — covers most geospatial use cases entirely within the cloud.
 
----
-
 ## Optimizations
 
 One of the main advantages of this cloud-native approach is that the data never has to leave Amazon Redshift. Traditional geospatial workflows often involve pulling data out of a database, processing it in a desktop GIS tool or Python environment, and then either loading the results back in or exporting them elsewhere. Each of those handoffs introduces latency, potential data inconsistency, and additional infrastructure to manage. By keeping everything inside Redshift — including the ML models — that overhead is eliminated.
@@ -29,8 +29,6 @@ One of the main advantages of this cloud-native approach is that the data never 
 AWS Data Exchange also removes the typical friction of working with third-party geospatial data. Instead of downloading files, managing local copies, and figuring out how to load them into a database, the data is available directly in Redshift as soon as you subscribe. That makes it much faster to get to the actual analysis.
 
 Using SQL as the primary interface throughout — for spatial joins, spatial functions, and ML model creation — is also a meaningful optimization from a workflow standpoint. It lowers the barrier to entry for analysts who aren't GIS specialists, and it means spatial analysis can happen inside the same environment where the rest of the business data already lives.
-
----
 
 ## Lessons Learned
 
