@@ -2,11 +2,20 @@
 
 An exploration of geospatial database management focused on building, querying, and visualizing crime data using PostgreSQL with PostGIS. Working with live public safety data from the City of Albuquerque, this project covers how to set up a spatial database from scratch, load geospatial data from a live web service, perform geoprocessing operations, and surface the results through interactive maps and charts — all from within a Python/JupyterLab environment.
 
----
+<img src="OldTown_Buffer_500m_Incidents.png" img alt = "Old Town Buffer 500m Picture"/>
 
 ## How It's Made:
 
-**Tech used:** Python, PostgreSQL, PostGIS, psycopg2, Shapely, Folium, ipywidgets, pandas, Matplotlib, JupyterLab
+**Tech used:** <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img alt="Python Badge" src="https://img.shields.io/badge/-Python-000000?style=flat&logo=Python"></a>  
+<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img alt="PostgreSQL Badge" src="https://img.shields.io/badge/-PostgreSQL-000000?style=flat&logo=PostgreSQL"></a> 
+<a href="https://postgis.net/" target="_blank" rel="noreferrer"> <img alt="PostGIS Badge" src="https://img.shields.io/badge/-PostGIS-000000?style=flat&logo=None"></a>
+<a href="https://pypi.org/project/psycopg2/" target="_blank" rel="noreferrer"> <img alt="psycopg2 Badge" src="https://img.shields.io/badge/-psycopg2-000000?style=flat&logo=None"></a>
+<a href="https://shapely.readthedocs.io/en/stable/" target="_blank" rel="noreferrer"> <img alt="Shapely Badge" src="https://img.shields.io/badge/-Shapely-000000?style=flat&logo=None"></a> 
+<a href="https://python-visualization.github.io/folium/latest/" target="_blank" rel="noreferrer"> <img alt="Folium Badge" src="https://img.shields.io/badge/-Folium-000000?style=flat&logo=Folium"></a>
+<a href="https://ipywidgets.readthedocs.io/en/stable/" target="_blank" rel="noreferrer"> <img alt="ipywidgets Badge" src="https://img.shields.io/badge/-ipywidgets-000000?style=flat&logo=None"></a>
+<a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img alt="pandas Badge" src="https://img.shields.io/badge/-pandas-000000?style=flat&logo=pandas"></a>
+<a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img alt="Matplotlib Badge" src="https://img.shields.io/badge/-Matplotlib-000000?style=flat&logo=None"></a> 
+<a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img alt="Jupyter Lab Badge" src="https://img.shields.io/badge/-Jupyter Lab-000000?style=flat&logo=Jupyter"></a>
 
 The project started with setting up a local PostgreSQL instance and enabling the PostGIS extension to make it spatially aware. From there, three geospatial database tables were created to organize the data: one for area commands (broad patrol zones), one for police beats (subdivisions within those zones), and one for individual crime incidents. Each table included a `GEOMETRY` field, making it a proper geospatial database schema.
 
@@ -20,8 +29,6 @@ Once the geospatial database was populated, the work shifted to spatial querying
 
 **Crime counts by area:** A SQL query joining the areacommand and incidents tables using `ST_Contains()` was loaded into a pandas DataFrame to count incidents per area. The intent was to produce a summary table showing which area had the highest crime count — the code was written and the query executed successfully, but a `NameError` caused by `pd` not being defined in the execution context prevented the DataFrame from rendering. The query logic itself was sound; the error was an environment/import issue that came up late in the notebook. The VALLEY area was selected for the interactive map portion, and based on the density visible in the map output, it appeared to be among the higher-activity zones in the dataset.
 
----
-
 ## Optimizations
 
 One recurring challenge with this project was the ephemeral nature of the database environment. Because the PostgreSQL instance was running locally on a JupyterHub server, it had to be deleted and fully rebuilt every session — including re-running the terminal setup commands, re-establishing the connection, and re-populating all three geospatial tables from the live web service. This made it important to keep the setup code clean and reproducible from top to bottom.
@@ -29,8 +36,6 @@ One recurring challenge with this project was the ephemeral nature of the databa
 On the geospatial query side, using PostGIS functions directly in SQL — rather than pulling everything into Python and processing it there — kept the spatial operations fast and clean. Functions like `ST_Intersects()`, `ST_Contains()`, `ST_Buffer()`, and `ST_AsGeoJSON()` did the heavy lifting inside the geospatial database itself, with Python handling the display layer. That separation made the code easier to read and debug.
 
 The `ipywidgets` integration also stood out as a cleaner approach than hardcoding area names. Rather than rewriting the SQL query every time, the widget lets you swap in any area command name and get an updated map without touching the underlying code — which is closer to how a real crime dashboard would work.
-
----
 
 ## Lessons Learned
 
