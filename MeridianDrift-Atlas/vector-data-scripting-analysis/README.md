@@ -2,9 +2,16 @@
 
 An exercise in geospatial vector data processing and scripting using Python. This project covers three core geospatial libraries — OGR, Shapely/Fiona, and GeoPandas — and demonstrates how to use each one to create, manipulate, analyze, and visualize vector data. The independent section applies these scripting skills to real wildfire datasets, performing spatial joins and producing choropleth maps that compare wildfire counts across U.S. states for two separate time periods.
 
+<img src="vector-scripting-html.png" img alt = "Vector Scripting HTML Picture"/>
+
 ## How It's Made:
 
-**Tech used:** Python, OGR/GDAL, Shapely, Fiona, GeoPandas, Matplotlib, JupyterLab
+**Tech used:** <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img alt="Python Badge" src="https://img.shields.io/badge/-Python-000000?style=flat&logo=Python"></a> <a href="https://gdal.org/en/stable/api/python/python_bindings.html" target="_blank" rel="noreferrer"> <img alt="OGR/GDAL Badge" src="https://img.shields.io/badge/-OGR/GDAL-000000?style=flat&logo=None"></a> 
+<a href="https://shapely.readthedocs.io/en/stable/" target="_blank" rel="noreferrer"> <img alt="Shapely Badge" src="https://img.shields.io/badge/-Shapely-000000?style=flat&logo=None"></a>
+<a href="https://fiona.readthedocs.io/en/stable/" target="_blank" rel="noreferrer"> <img alt="Fiona Badge" src="https://img.shields.io/badge/-Fiona-000000?style=flat&logo=None"></a> 
+<a href="https://geopandas.org/en/stable/" target="_blank" rel="noreferrer"> <img alt="GeoPandas Badge" src="https://img.shields.io/badge/-GeoPandas-000000?style=flat&logo=GeoPandas"></a> 
+<a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img alt="Matplotlib Badge" src="https://img.shields.io/badge/-Matplotlib-000000?style=flat&logo=None"></a> 
+<a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img alt="Jupyter Lab Badge" src="https://img.shields.io/badge/-Jupyter Lab-000000?style=flat&logo=Jupyter"></a>
 
 The project was organized around three libraries, each covered in sequence to show how they approach the same class of problems differently.
 
