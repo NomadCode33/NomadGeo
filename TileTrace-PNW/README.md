@@ -33,7 +33,7 @@ The custom basemap was designed in **Mapbox Studio** starting from an existing m
 ![Dot Zoom 2](img/dotzoom2.png)
 ![Dot Zoom 3](img/dotzoom3.png)
 
-The dot density tile set visualizes the geographic distribution of fast food chain locations across the United States. Each green dot represents a franchise location, and the density pattern that emerges tells a clear story: the East Coast and major metro corridors are heavily saturated, while the interior West and rural stretches of the Midwest are comparatively sparse. The dark background keeps the glowing green dots visually prominent across all zoom levels. This tile set was sourced from coursework in GEOG 465 and adapted here as the thematic layer component of the project.
+The dot density tile set visualizes the geographic distribution of fast food chain locations across the United States. Each green dot represents a franchise location, and the density pattern that emerges tells a clear story: the East Coast and major metro corridors are heavily saturated, while the interior West and rural stretches of the Midwest are comparatively sparse. The dark background keeps the glowing green dots visually prominent across all zoom levels.
 
 ### 3. Combined Basemap + Dot Density (du)
 **Geographic Area:** Contiguous United States  
