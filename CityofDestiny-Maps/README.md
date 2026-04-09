@@ -18,7 +18,7 @@ The final deliverable was structured as a city-wide overview map alongside a ser
 
 **Tacoma Tourism Attractions Overview** *(Scale: 1:34,996)*
 
-![Tacoma Overview](Maps/Overview-Maps/Tacoma Tourism Attractions Overview.png)
+![Tacoma Overview](Maps/Overview-Maps/Tacoma-Tourism-Attractions-Overview.png)
 
 The city-wide overview shows the full spread of tourism attractions across Tacoma, color-coded and symbolized by category. The concentration of breweries, public art, and art galleries in the downtown and Stadium District areas is visible right away, which tracks with how those neighborhoods are positioned as Tacoma's cultural core. Hotels are distributed more broadly, particularly along the highway corridors, and parks form a consistent green backbone across the city.
 
