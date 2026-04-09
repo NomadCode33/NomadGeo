@@ -2,14 +2,11 @@
 
 An exploration of social media data through a geographic lens, focused on streaming, collecting, and visualizing real-time geo-tagged tweets across the United States using Python. This project examines how location shapes the language people use online — comparing the Twitter activity and word patterns of two distinct regions: the Chicago/Illinois area and the New York area.
 
-<img src="./img/Word-Art-1.png" img alt = "Word Art 1 Picture"/>
-
 ## How It's Made
 
 **Tech used:** <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img alt="Python Badge" src="https://img.shields.io/badge/-Python-000000?style=flat&logo=Python"></a> <a href="https://docs.tweepy.org/en/v3.4.0/streaming_how_to.html" target="_blank" rel="noreferrer"> <img alt="Tweepy Badge" src="https://img.shields.io/badge/-Tweepy-000000?style=flat&logo=None"></a>
 <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img alt="pandas Badge" src="https://img.shields.io/badge/-pandas-000000?style=flat&logo=pandas"></a> 
-<a href="https://colab.research.google.com/" target="_blank" rel="noreferrer"> <img alt="Google Colab Badge" src="https://img.shields.io/badge/-Google Colab-000000?style=flat&logo=Google Colab"></a>  
-<a href="https://docs.x.com/x-api/introduction" target="_blank" rel="noreferrer"> <img alt="Twitter/X Streaming API Badge" src="https://img.shields.io/badge/-Twitter/X Streaming API-000000?style=flat&logo=X"></a> 
+<a href="https://colab.research.google.com/" target="_blank" rel="noreferrer"> <img alt="Google Colab Badge" src="https://img.shields.io/badge/-Google Colab-000000?style=flat&logo=GoogleColab"></a>  <a href="https://docs.x.com/x-api/introduction" target="_blank" rel="noreferrer"> <img alt="Twitter/X Streaming API Badge" src="https://img.shields.io/badge/-Twitter/X Streaming API-000000?style=flat&logo=X"></a> 
 <a href="https://wordart.com" target="_blank" rel="noreferrer"> <img alt="WordArt Badge" src="https://img.shields.io/badge/-WordArt-000000?style=flat&logo=None"></a>
 
 The project was built entirely in **Google Colab**, which handled the cloud execution environment without any local setup overhead. The script connects to the **Twitter Streaming API** via **Tweepy**, authenticating through OAuth and filtering the live tweet stream by geographic bounding boxes that cover the contiguous United States, Alaska, and Hawaii.
