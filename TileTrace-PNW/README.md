@@ -50,7 +50,7 @@ The combined tile set merges the custom basemap with the fast food dot density l
 **Zoom Levels:** 0–8
 
 ![BLM Map](img/blm.png)
-![BLM Zoom](img/blm_zoom.png)
+![BLM Zoom](img/blmzoom.png)
 ![BLM Zoom 2](img/blmzoom2.png)
 
 The Black Lives Matter tile set was designed in **Mapbox Studio** as a thematically driven map layer. The color palette, typography, and icon choices were all selected to reflect the visual language of the BLM movement — dark backgrounds, bold label treatments, and a color scheme consistent with the movement's established aesthetic. This tile set has the highest maximum zoom of the four (0–8), allowing it to be explored at a finer level of detail than the others. The geographic focus is centered on the southeastern United States, a region central to the history and ongoing conversation around racial justice in America.
