@@ -1,4 +1,4 @@
-# LocalLens — Tacoma Tourism Attractions Mapping
+# City of Destiny — Tacoma Tourism Attractions Mapping
 
 A client-commissioned geospatial mapping project built for a client, focused on cataloguing and visualizing tourism attractions across Tacoma, Washington. The goal was to produce a detailed, layered map of the city's cultural and recreational offerings — breweries, wineries, distilleries, public art, art galleries, hotels, beaches, parks, tribal casinos, and recreation & community centers — giving the client a geographic reference tool for tourism planning and promotion.
 
