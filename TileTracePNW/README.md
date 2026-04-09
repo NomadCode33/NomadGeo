@@ -2,7 +2,7 @@
 
 An exploration of web map design and tile generation focused on building, styling, and serving four distinct map tile sets across the Pacific Northwest and the contiguous United States. Using **Mapbox Studio** and **QTiles**, this project covers how to design custom basemaps, generate thematic layers, combine tile sets, and deploy them as a fully interactive web map using **Mapbox GL JS** with a layer switcher for toggling each tile set on and off.
 
-**Link to Project:** https://nomadcode33.github.io/TileTrace-PNW
+**Link to Project:** https://nomadcode33.github.io/TileTracePNW
 
 ## How It's Made
 
