@@ -1,8 +1,6 @@
 # LocalLens — Tacoma Tourism Attractions Mapping
 
-A client-commissioned geospatial mapping project built for **Lifestyle Valet**, focused on cataloguing and visualizing tourism attractions across Tacoma, Washington. The goal was to produce a detailed, layered map of the city's cultural and recreational offerings — breweries, wineries, distilleries, public art, art galleries, hotels, beaches, parks, tribal casinos, and recreation & community centers — giving the client a geographic reference tool for tourism planning and promotion.
-
----
+A client-commissioned geospatial mapping project built for a client, focused on cataloguing and visualizing tourism attractions across Tacoma, Washington. The goal was to produce a detailed, layered map of the city's cultural and recreational offerings — breweries, wineries, distilleries, public art, art galleries, hotels, beaches, parks, tribal casinos, and recreation & community centers — giving the client a geographic reference tool for tourism planning and promotion.
 
 ## How It's Made
 
@@ -16,41 +14,25 @@ To make sure the coordinates were accurate, every point was cross-referenced usi
 
 The final deliverable was structured as a city-wide overview map alongside a series of neighborhood-level breakdowns. Tacoma was divided into sub-area frames — including a five-part East Tacoma series — so that each section of the city could be viewed at a meaningful scale without losing detail. Each map layout was exported as a print-ready PDF at its respective scale.
 
----
-
 ## Maps
 
 **Tacoma Tourism Attractions Overview** *(Scale: 1:34,996)*
 
-![Tacoma Overview](img/Tacoma_Tourism_Attractions_Overview.png)
+![Tacoma Overview](Maps/Overview-Maps/Tacoma_Tourism_Attractions_Overview.pdf)
 
 The city-wide overview shows the full spread of tourism attractions across Tacoma, color-coded and symbolized by category. The concentration of breweries, public art, and art galleries in the downtown and Stadium District areas is visible right away, which tracks with how those neighborhoods are positioned as Tacoma's cultural core. Hotels are distributed more broadly, particularly along the highway corridors, and parks form a consistent green backbone across the city.
 
----
-
 **East Tacoma Overview** *(Scale: 1:5,800)*
 
-![East Tacoma Overview](img/East_Tacoma_Overview.png)
+![East Tacoma Overview](Maps/Tacoma/East_Tacoma_Overview.png)
 
 The East Tacoma breakdown zooms in to show how the neighborhood's attractions sit relative to the road network and green space. At this scale, the relationship between the rec & community centers, parks, and the highway infrastructure becomes a lot clearer — useful context for anyone trying to understand how accessible these spots actually are from different parts of the city.
-
----
-
-**East Tacoma Detail (1/5)** *(Scale: 1:1,135)*
-
-![East Tacoma Detail](img/East_Tacoma__1_5_.png)
-
-The detail maps bring individual attractions into full view at street level. This frame shows Old Soldier Distillery and the Comfort Inn & Suites Downtown Tacoma sitting within their immediate block context, with road labels visible and building footprints rendered. At 1:1,135, there's enough resolution to see exactly where a point sits on a parcel — which matters when you're handing a map to someone who'll actually be using it for navigation or promotion.
-
----
 
 ## Optimizations
 
 One of the more time-intensive parts of the project was building the point and polygon datasets from nothing. When you're manually placing every brewery, gallery, and public art piece, accuracy has to be the priority — so the workflow of digitizing in the HPI Polygon Tool, attributing in geojson.io, and then verifying coordinates against Google Earth satellite imagery and official venue documentation added steps, but it was the right way to do it. Cutting corners on location accuracy in a tourism map defeats the purpose.
 
 The multi-scale layout approach — one overview, one neighborhood overview, and a numbered detail series — was a deliberate choice to make the maps actually usable at different levels of engagement. A city-wide map is great for context; a 1:1,135 detail frame is what you need when you're standing on a corner trying to find something. Producing both meant the client had a complete reference set rather than one map trying to do too much.
-
----
 
 ## Lessons Learned
 
