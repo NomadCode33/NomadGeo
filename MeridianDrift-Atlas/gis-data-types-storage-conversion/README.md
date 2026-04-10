@@ -25,3 +25,19 @@ One challenge that came up early was that `df.to_file()` threw a CRSError when t
 ## Lessons Learned:
 
 This project made it clear that knowing multiple tools for the same task is genuinely useful in GIS work — you're not always going to have the luxury of picking one library and sticking with it. GeoPandas makes reading and plotting shapefiles straightforward, but when you need to dig into schema structure or convert raster formats at the command level, OGR and GDAL are the right tools. Getting comfortable with how CRS information travels through a workflow — checking it, reprojecting it, and making sure it's preserved when writing to a new format — was probably the most practically useful takeaway. It's the kind of thing that causes silent errors downstream if you're not paying attention to it upfront.
+
+## Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+**SeaRise3D:** [SeaRise3D: Miami Beach](https://github.com/NomadCode33/NomadGeo/tree/main/GreenMap%20Initiative/SeaRise3D)
+
+**OsoShift:** [OsoShift: Oso Landslide Story](https://github.com/NomadCode33/NomadGeo/tree/main/CartoCraft/OsoShift) 
+
+**West Seattle Light Rail Survey:** [West Seattle Light Rail Survey](https://github.com/NomadCode33/NomadGeo/tree/main/Furtado-Associates-Projects/West%20Seattle%20Light%20Rail%20Survey)
+
+## Repositories
+
+**Profile:** [NomadCode33](https://github.com/NomadCode33)
+
+**Main Repository:** [NomadGeo](https://github.com/NomadCode33/NomadGeo)

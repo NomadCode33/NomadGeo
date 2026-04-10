@@ -75,3 +75,19 @@ This project made it clear how much of web map design happens before a single li
 Working with **QTiles** for tile generation also highlighted the importance of thinking ahead about zoom range and bounding box scope. Every additional zoom level multiplies the tile count, so understanding the relationship between zoom, resolution, and file size early in the process saves a lot of backtracking.
 
 Getting the layer switcher wired up correctly in **Mapbox GL JS** — handling the `idle` event to ensure layers exist before building the toggle buttons, using `getLayoutProperty` to check current visibility state, and managing the active CSS class — was probably the most technically involved part of the front-end work, and it reinforced how event-driven browser environments require careful attention to timing and state.
+
+## Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+**SpilView:** [SpilView: Seeing the World Through Oceans](https://github.com/NomadCode33/NomadGeo/tree/main/CartoCraft/SpilView)
+
+**Lynnwood Right-of-Way:** [Lynnwood ROW Acquisition](https://github.com/NomadCode33/NomadGeo/tree/main/Furtado-Associates-Projects/Lynnwood%20ROW%20Acquisition)
+
+**City of Destiny:** [Tacoma Tourism Attractions Mapping](https://github.com/NomadCode33/NomadGeo/tree/main/CityofDestiny-Maps)
+
+## Repositories
+
+**Profile:** [NomadCode33](https://github.com/NomadCode33)
+
+**Main Repository:** [NomadGeo](https://github.com/NomadCode33/NomadGeo)

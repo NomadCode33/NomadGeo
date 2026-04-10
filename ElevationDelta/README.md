@@ -45,3 +45,19 @@ The raster subtraction approach for deriving change over time (CHM difference, t
 The classification step using `np.digitize` was a good example of how raster reclassification works in practice — assigning pixel values to bins based on defined breakpoints and mapping those bins to discrete categories. The extra class that digitize creates for values below the lowest bin is easy to miss and leads to a visually confusing plot until you mask it out with `.where()`.
 
 Working through both the canopy height and terrain change analyses side by side also made it easier to see what the flood actually did to the landscape — the CHM map captured what happened to the trees, while the DTM map showed what happened to the ground itself.
+
+## Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+**CloudCanvas:** [Cloud-Based Spatial Database](https://github.com/NomadCode33/NomadGeo/tree/main/CloudCanvas)
+
+**GeoQuery ABQ:** [Crime Analysis](https://github.com/NomadCode33/NomadGeo/tree/main/GeoQuery-ABQ)
+
+**StratusGeo:** [Serverless Geospatial Analytics](https://github.com/NomadCode33/NomadGeo/tree/main/StratusGeo)
+
+## Repositories
+
+**Profile:** [NomadCode33](https://github.com/NomadCode33)
+
+**Main Repository:** [NomadGeo](https://github.com/NomadCode33/NomadGeo)

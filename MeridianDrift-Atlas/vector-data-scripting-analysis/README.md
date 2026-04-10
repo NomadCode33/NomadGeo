@@ -30,3 +30,19 @@ Working through OGR, Shapely/Fiona, and GeoPandas back to back made the tradeoff
 ## Lessons Learned:
 
 This project reinforced how much scripting discipline matters in geospatial work. The spatial join between the wildfire points and state boundaries only works correctly when both datasets are in the same CRS — something easy to overlook but guaranteed to break results silently if you don't catch it. Comparing row counts before and after the join (25,614 fires in the full dataset vs. 28,461 matched after the join in the guided section) was a good reminder that data inspection should be a built-in step, not an afterthought. On the analysis side, seeing how drastically wildfire distributions shifted between the two time periods — Florida dominated both, but Kansas and Texas surged significantly in 2000–2014 while West Virginia and Kentucky dropped off — showed how much the same scripting pipeline can reveal when you apply it to segmented data. Writing reusable code for each time period rather than duplicating logic was the right approach and made the comparison much cleaner to produce.
+
+## Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+**ReefWatch:** [ReefWatch: Coral Reef Health Monitoring Dashboard](https://github.com/NomadCode33/NomadGeo/tree/main/GreenMap%20Initiative/ReefWatch)
+
+**SailLines:** [SailLines: The 1779 Transatlantic Race](https://github.com/NomadCode33/NomadGeo/tree/main/CartoCraft/SailLines)
+
+**Sumner Jurisdiction Boundary:** [Sumner Jurisdiction Boundary](https://github.com/NomadCode33/NomadGeo/tree/main/Furtado-Associates-Projects/Sumner%20Jurisdiction%20Boundary)
+
+## Repositories
+
+**Profile:** [NomadCode33](https://github.com/NomadCode33)
+
+**Main Repository:** [NomadGeo](https://github.com/NomadCode33/NomadGeo)

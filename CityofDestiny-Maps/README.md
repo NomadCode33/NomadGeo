@@ -49,7 +49,24 @@ The verification step also stood out as something easy to skip but important to 
 
 Working in QGIS across multiple layout scales also reinforced how much thought goes into cartographic design decisions — scale, symbolization, legend placement, label density — and how those choices compound when you're producing a series of maps that need to read consistently as a set.
 
----
+## Data Sources:
 
-*Data Sources: Tacoma Open Data · Metro Parks Tacoma · Pierce County Geospatial Data Portal · WSDOT*  
-*CRS: EPSG:4326 (WGS 84) · Map Author: Chukwuemeka Emeche · Organization: Lifestyle Valet*
+Tacoma Open Data · Metro Parks Tacoma · Pierce County Geospatial Data Portal · WSDOT  
+*CRS: EPSG:4326 (WGS 84) · Map Author: Chukwuemeka Emeche*
+
+## Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+**GIS Data Types, Storage, and Conversion:** [GIS Conversion](https://github.com/NomadCode33/NomadGeo/tree/main/MeridianDrift-Atlas/gis-data-types-storage-conversion)
+
+**ElevationDelta:** [Raster Analysis](https://github.com/NomadCode33/NomadGeo/tree/main/ElevationDelta)
+
+**EcoPulse Report:** [EcoPulse Climate Analysis Report](https://github.com/NomadCode33/NomadGeo/tree/main/EcoPulse/EcoPulse%20Climate%20Analysis%20Report)
+
+## Repositories
+
+**Profile:** [NomadCode33](https://github.com/NomadCode33)
+
+**Main Repository:** [NomadGeo](https://github.com/NomadCode33/NomadGeo)
+

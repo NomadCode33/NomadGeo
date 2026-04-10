@@ -62,3 +62,20 @@ The biggest takeaway from this project is how much geographic context matters wh
 Working with the **Twitter Streaming API** through **Tweepy** also made it clear that real-time data collection is inherently messy. You're capturing a snapshot, not a census. The data you get depends on timing, platform activity, and how tight your filters are. Learning to design around that uncertainty — building in time limits, handling stream interruptions, and thinking critically about what the collected sample actually represents — was probably the most practically useful part of this whole exercise.
 
 Using **Google Colab** for cloud execution was a smooth experience overall. Not having to configure a local environment meant more time spent on the actual analysis, which is the right tradeoff for a data-focused project like this.
+
+
+## Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+**City of Destiny:** [Tacoma Tourism Attractions Mapping](https://github.com/NomadCode33/NomadGeo/tree/main/CityofDestiny-Maps)
+
+**StormChronicles:** [StormChronicles: Hurricanes since 1851](https://github.com/NomadCode33/NomadGeo/tree/main/CartoCraft/StormChronicles) 
+
+**Terazon:** [Terazon: Visualizing Land Cover Change in Rondonia](https://github.com/NomadCode33/NomadGeo/tree/main/GreenMap%20Initiative/Terazon)
+
+## Repositories
+
+**Profile:** [NomadCode33](https://github.com/NomadCode33)
+
+**Main Repository:** [NomadGeo](https://github.com/NomadCode33/NomadGeo)

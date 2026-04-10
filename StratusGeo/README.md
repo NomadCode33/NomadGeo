@@ -37,3 +37,19 @@ This project made it clear that the biggest bottleneck in geospatial analytics i
 The ability to run machine learning directly inside Redshift using SQL was probably the most unexpected takeaway. The typical assumption is that ML requires a separate pipeline — export the data, train a model in a notebook or dedicated platform, deploy it somewhere, and then figure out how to get predictions back into your analysis environment. Redshift ML collapses that into a single SQL statement, which changes what's practical to do with spatial data at scale.
 
 The CARTO integration also reinforced that cloud-native geospatial work doesn't have to sacrifice visualization quality. Having a direct connection from the data warehouse to an interactive mapping platform means the output of a spatial query can be on a map in seconds, rather than going through an export-and-import cycle just to see what the data looks like spatially.
+
+## Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+**ImpactAtlas:** [ImpactAtlas: Climate Change Through Spatial Insight](https://github.com/NomadCode33/NomadGeo/tree/main/GreenMap%20Initiative/ImpactAtlas)
+
+**EmpireMap:** [EmpireMap: New York in Layers](https://github.com/NomadCode33/NomadGeo/tree/main/CartoCraft/EmpireMap)
+
+**North Bothell Bus Base:** [North Bothell Bus Base](https://github.com/NomadCode33/NomadGeo/tree/main/Furtado-Associates-Projects/North%20Bothell%20Bus%20Base)
+
+## Repositories
+
+**Profile:** [NomadCode33](https://github.com/NomadCode33)
+
+**Main Repository:** [NomadGeo](https://github.com/NomadCode33/NomadGeo)

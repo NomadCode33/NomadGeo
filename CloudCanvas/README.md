@@ -30,3 +30,19 @@ One of the first issues I ran into was a connection error when trying to `psql` 
 ## Lessons Learned:
 
 This project made the real-world mechanics of cloud database management click in a way that reading about it doesn't. Provisioning the Azure PostgreSQL server, configuring firewall rules, and connecting through both psql and QGIS are the kinds of tasks that show up in enterprise GIS environments, and going through each step manually made the underlying infrastructure feel less abstract. The role-based access control section was probably the most instructive part — writing SQL to create roles, grant connection permissions, assign schema-level usage, and control table-level read versus edit access is a pattern that scales directly to production environments where multiple teams need different levels of access to the same dataset. The trigger function brought together several PostGIS spatial functions in a single automated workflow, which reinforced how much can be offloaded to the database layer rather than handled in application code. If the geometry changes, the metadata updates — no manual intervention needed.
+
+## Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+**City of Destiny:** [Tacoma Tourism Attractions Mapping](https://github.com/NomadCode33/NomadGeo/tree/main/CityofDestiny-Maps)
+
+**Vector Data Scripting Analysis:** [Scripting Analysis](https://github.com/NomadCode33/NomadGeo/tree/main/MeridianDrift-Atlas/vector-data-scripting-analysis)
+
+**GeoSignal:** [Geo-Tagged Tweet Collection](https://github.com/NomadCode33/NomadGeo/tree/main/GeoSignal)
+
+## Repositories
+
+**Profile:** [NomadCode33](https://github.com/NomadCode33)
+
+**Main Repository:** [NomadGeo](https://github.com/NomadCode33/NomadGeo)

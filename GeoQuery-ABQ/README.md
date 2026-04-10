@@ -45,3 +45,19 @@ Working with PostGIS specifically reinforced how useful it is to keep spatial lo
 The interactive widget piece was a useful introduction to how spatial queries can be surfaced for non-technical users. Being able to type in an area name and get a live map — without writing new code each time — is a small step toward the kind of interface a real crime dashboard would need.
 
 And the `NameError` at the end was a good reminder that environment state matters. A query can be logically correct and still not run if the context it depends on isn't set up right. That's not a GIS problem — it's a workflow problem, and it's worth paying attention to.
+
+## Examples:
+
+Take a look at these couple examples that I have in my own portfolio:
+
+**City of Destiny:** [Tacoma Tourism Attractions Mapping](https://github.com/NomadCode33/NomadGeo/tree/main/CityofDestiny-Maps)
+
+**TileTrace PNW:** [Web Map Design & Tile Generation](https://github.com/NomadCode33/NomadGeo/tree/main/TileTracePNW)
+
+**BayouWaters:** [BayouWaters: A New Orleans Risk Model](https://github.com/NomadCode33/NomadGeo/tree/main/BayouWaters)
+
+## Repositories
+
+**Profile:** [NomadCode33](https://github.com/NomadCode33)
+
+**Main Repository:** [NomadGeo](https://github.com/NomadCode33/NomadGeo)
