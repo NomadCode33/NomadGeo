@@ -24,7 +24,7 @@ The city-wide overview shows the full spread of tourism attractions across Tacom
 
 **East Tacoma Overview** *(Scale: 1:5,800)*
 
-![East Tacoma Overview](Maps/Tacoma/Ea)
+![East Tacoma Overview](Maps/Tacoma/East-Tacoma-Overview.png)
 
 The East Tacoma breakdown zooms in to show how the neighborhood's attractions sit relative to the road network and green space. At this scale, the relationship between the rec & community centers, parks, and the highway infrastructure becomes a lot clearer — useful context for anyone trying to understand how accessible these spots actually are from different parts of the city.
 
