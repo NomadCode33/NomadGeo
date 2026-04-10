@@ -24,13 +24,15 @@ The city-wide overview shows the full spread of tourism attractions across Tacom
 
 **East Tacoma Overview** *(Scale: 1:5,800)*
 
-![East Tacoma Overview](Maps/Tacoma/East_Tacoma_Overview.png)
+![East Tacoma Overview](Maps/Tacoma/East-Tacoma-Overview.png)
 
 The East Tacoma breakdown zooms in to show how the neighborhood's attractions sit relative to the road network and green space. At this scale, the relationship between the rec & community centers, parks, and the highway infrastructure becomes a lot clearer — useful context for anyone trying to understand how accessible these spots actually are from different parts of the city.
 
 ## Optimizations
 
 One of the more time-intensive parts of the project was building the point and polygon datasets from nothing. When you're manually placing every brewery, gallery, and public art piece, accuracy has to be the priority — so the workflow of digitizing in the HPI Polygon Tool, attributing in geojson.io, and then verifying coordinates against Google Earth satellite imagery and official venue documentation added steps, but it was the right way to do it. Cutting corners on location accuracy in a tourism map defeats the purpose.
+
+A recurring challenge during digitizing was polygon persistence in the custom polygon workflow — even after removing building backgrounds on specific polygons and saving the changes, the elements themselves wouldn't clear, requiring additional cleanup passes. It's worth catching earlier in the process next time.
 
 The multi-scale layout approach — one overview, one neighborhood overview, and a numbered detail series — was a deliberate choice to make the maps actually usable at different levels of engagement. A city-wide map is great for context; a 1:1,135 detail frame is what you need when you're standing on a corner trying to find something. Producing both meant the client had a complete reference set rather than one map trying to do too much.
 
