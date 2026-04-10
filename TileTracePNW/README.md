@@ -5,8 +5,13 @@ An exploration of web map design and tile generation focused on building, stylin
 **Link to Project:** https://nomadcode33.github.io/TileTracePNW
 
 ## How It's Made
-
-**Tech used:** Mapbox GL JS, Mapbox Studio, QTiles, Leaflet, HTML/CSS/JavaScript, GitHub Pages
+**Tech used:** <a href="https://www.mapbox.com/" target="_blank" rel="noreferrer"> <img alt="Mapbox GL JS Badge" src="https://img.shields.io/badge/-Mapbox GL JS-000000?style=flat&logo=Mapbox"></a>
+<a href="https://www.mapbox.com/" target="_blank" rel="noreferrer"> <img alt="Mapbox Studio Badge" src="https://img.shields.io/badge/-Mapbox Studio-000000?style=flat&logo=Mapbox"></a>
+<a href="https://github.com/nextgis/qgis_qtiles" target="_blank" rel="noreferrer"> <img alt="QTiles Badge" src="https://img.shields.io/badge/-QTiles-000000?style=flat&logo=None"></a>
+<a href="https://leafletjs.com/" target="_blank" rel="noreferrer"> <img alt="Leaflet Badge" src="https://img.shields.io/badge/-Leaflet-000000?style=flat&logo=Leaflet"></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer"> <img alt="HTML5 Badge" src="https://img.shields.io/badge/-HTML5-000000?style=flat&logo=HTML5"></a> 
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noreferrer"> <img alt="CSS3 Badge" src="https://img.shields.io/badge/-CSS3-000000?style=flat&logo=CSS"></a> 
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img alt="JavaScript Badge" src="https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=JavaScript"></a>
 
 The project is structured around four tile sets, each serving a different cartographic purpose. All tiles were generated using **QTiles** and served as raster tile layers in a **Mapbox GL JS** web application. The interface includes a layer switcher in the top-right corner that lets users toggle between all four layers independently — built using Mapbox's `setLayoutProperty` method to control layer visibility without reloading tiles.
 
