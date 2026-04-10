@@ -4,7 +4,15 @@ A client-commissioned geospatial mapping project built for a client, focused on 
 
 ## How It's Made
 
-**Tech used:** QGIS, GeoJSON, Google Earth, HPI Polygon Tool, geojson.io, Tacoma Open Data, Metro Parks Tacoma Data, Pierce County Geospatial Data Portal, WSDOT
+**Tech used:** <a href="https://www.qgis.org/en/site/" target="_blank" rel="noreferrer"> <img alt="QGIS Badge" src="https://img.shields.io/badge/-QGIS-000000?style=flat&logo=Qgis"></a> <a href="https://geojson.org/" target="_blank" rel="noreferrer"> <img alt="GeoJSON Badge" src="https://img.shields.io/badge/-GeoJSON-000000?style=flat&logo=JSON"></a> 
+<a href="https://earth.google.com/" target="_blank" rel="noreferrer"> <img alt="Google Earth Badge" src="https://img.shields.io/badge/-Google Earth-000000?style=flat&logo=GoogleEarth"></a> 
+<a href="http://apps.headwallphotonics.com/" target="_blank" rel="noreferrer"> <img alt="HPI Polygon Tool Badge" src="https://img.shields.io/badge/-HPI Polygon Tool-000000?style=flat&logo=None"></a>
+<a href="https://geojson.org/" target="_blank" rel="noreferrer"> <img alt="GeoJSON Badge" src="https://img.shields.io/badge/-GeoJSON-000000?style=flat&logo=JSON"></a> 
+<a href="geojson.io" target="_blank" rel="noreferrer"> <img alt="geojson.io Badge" src="https://img.shields.io/badge/-geojson.io-000000?style=flat&logo=JSON"></a>
+<a href="https://data.tacoma.gov/" target="_blank" rel="noreferrer"> <img alt="Tacoma Open Data Badge" src="https://img.shields.io/badge/-Tacoma Open Data-000000?style=flat&logo=None"></a> 
+<a href="https://datahome-mpt.hub.arcgis.com/" target="_blank" rel="noreferrer"> <img alt="Metro Parks Tacoma Data Badge" src="https://img.shields.io/badge/-Metro Parks Tacoma Data-000000?style=flat&logo=None"></a> 
+<a href="https://gisdata-piercecowa.opendata.arcgis.com/" target="_blank" rel="noreferrer"> <img alt="Pierce County Geospatial Data Portal Badge" src="https://img.shields.io/badge/-Pierce County Geospatial Data Portal-000000?style=flat&logo=None"></a>
+<a href="https://wsdot.wa.gov/" target="_blank" rel="noreferrer"> <img alt="WSDOT Badge" src="https://img.shields.io/badge/-WSDOT-000000?style=flat&logo=None"></a>
 
 The project was built entirely in **QGIS** using **EPSG:4326 (WGS 84)** as the coordinate reference system, keeping everything consistent and export-ready across all map outputs. Data was sourced from a combination of public portals — Tacoma Open Data, Metro Parks Tacoma, the Pierce County Geospatial Data Portal, and WSDOT — and layered together to build out the base map before any attraction points were added.
 
